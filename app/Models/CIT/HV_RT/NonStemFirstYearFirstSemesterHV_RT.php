@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Models\CIT\HV_RT;
+namespace App\Models\CIT\HVRT;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class NonStemFirstYearFirstSemesterHV_RT extends Model
+class NonStemFirstYearFirstSemesterHVRT extends Model
 {
     use HasFactory;
-    protected $table = 'non_stem_first_year_first_semesters_hv_rt';
+    protected $table = 'non_stem_first_year_first_semesters_HVRT';
     protected $fillable = [
         'course_code',
         'description',

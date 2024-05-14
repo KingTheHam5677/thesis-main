@@ -23,8 +23,8 @@ use App\Models\CIT\AT\SecondYearSecondSemesterAT;
 use App\Models\CIT\AT\NonStemSecondYearSecondSemesterAT;
 use App\Models\CIT\METFT\SecondYearSecondSemesterMETFT;
 use App\Models\CIT\METFT\NonStemSecondYearSecondSemesterMETFT;
-use App\Models\CIT\HV_RT\SecondYearSecondSemesterHV_RT;
-use App\Models\CIT\HV_RT\NonStemSecondYearSecondSemesterHV_RT;
+use App\Models\CIT\HVRT\SecondYearSecondSemesterHVRT;
+use App\Models\CIT\HVRT\NonStemSecondYearSecondSemesterHVRT;
 use App\Models\CIT\PPT\SecondYearSecondSemesterPPT;
 use App\Models\CIT\PPT\NonStemSecondYearSecondSemesterPPT;
 use App\Models\CIT\WT\SecondYearSecondSemesterWT;
@@ -81,8 +81,8 @@ class SecondYearSecondSemController extends Controller
             'ATNonstem' => "Semester/CIT/AT/CreateSecondYearSecondSemNonstem",
             'METFTStem' => "Semester/CIT/METFT/CreateSecondYearSecondSem",
             'METFTNonstem' => "Semester/CIT/METFT/CreateSecondYearSecondSemNonstem",
-            'HV_RTStem' => "Semester/CIT/HV_RT/CreateSecondYearSecondSem",
-            'HV_RTNonstem' => "Semester/CIT/HV_RT/CreateSecondYearSecondSemNonstem",
+            'HVRTStem' => "Semester/CIT/HVRT/CreateSecondYearSecondSem",
+            'HVRTNonstem' => "Semester/CIT/HVRT/CreateSecondYearSecondSemNonstem",
             'PPTStem' => "Semester/CIT/PPT/CreateSecondYearSecondSem",
             'PPTNonstem' => "Semester/CIT/PPT/CreateSecondYearSecondSemNonstem",
             'WTStem' => "Semester/CIT/WT/CreateSecondYearSecondSem",
@@ -131,8 +131,8 @@ class SecondYearSecondSemController extends Controller
             'ATNonstem' => NonStemSecondYearSecondSemesterAT::class,
             'METFTStem' => SecondYearSecondSemesterMETFT::class,
             'METFTNonstem' => NonStemSecondYearSecondSemesterMETFT::class,
-            'HV_RTStem' => SecondYearSecondSemesterHV_RT::class,
-            'HV_RTNonstem' => NonStemSecondYearSecondSemesterHV_RT::class,
+            'HVRTStem' => SecondYearSecondSemesterHVRT::class,
+            'HVRTNonstem' => NonStemSecondYearSecondSemesterHVRT::class,
             'PPTStem' => SecondYearSecondSemesterPPT::class,
             'PPTNonstem' => NonStemSecondYearSecondSemesterPPT::class,
             'WTStem' => SecondYearSecondSemesterWT::class,

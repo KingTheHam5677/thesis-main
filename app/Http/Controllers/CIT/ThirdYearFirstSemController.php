@@ -23,8 +23,8 @@ use App\Models\CIT\AT\ThirdYearFirstSemesterAT;
 use App\Models\CIT\AT\NonStemThirdYearFirstSemesterAT;
 use App\Models\CIT\METFT\ThirdYearFirstSemesterMETFT;
 use App\Models\CIT\METFT\NonStemThirdYearFirstSemesterMETFT;
-use App\Models\CIT\HV_RT\ThirdYearFirstSemesterHV_RT;
-use App\Models\CIT\HV_RT\NonStemThirdYearFirstSemesterHV_RT;
+use App\Models\CIT\HVRT\ThirdYearFirstSemesterHVRT;
+use App\Models\CIT\HVRT\NonStemThirdYearFirstSemesterHVRT;
 use App\Models\CIT\PPT\ThirdYearFirstSemesterPPT;
 use App\Models\CIT\PPT\NonStemThirdYearFirstSemesterPPT;
 use App\Models\CIT\WT\ThirdYearFirstSemesterWT;
@@ -81,8 +81,8 @@ class ThirdYearFirstSemController extends Controller
             'ATNonstem' => "Semester/CIT/AT/CreateThirdYearFirstSemNonstem",
             'METFTStem' => "Semester/CIT/METFT/CreateThirdYearFirstSem",
             'METFTNonstem' => "Semester/CIT/METFT/CreateThirdYearFirstSemNonstem",
-            'HV_RTStem' => "Semester/CIT/HV_RT/CreateThirdYearFirstSem",
-            'HV_RTNonstem' => "Semester/CIT/HV_RT/CreateThirdYearFirstSemNonstem",
+            'HVRTStem' => "Semester/CIT/HVRT/CreateThirdYearFirstSem",
+            'HVRTNonstem' => "Semester/CIT/HVRT/CreateThirdYearFirstSemNonstem",
             'PPTStem' => "Semester/CIT/PPT/CreateThirdYearFirstSem",
             'PPTNonstem' => "Semester/CIT/PPT/CreateThirdYearFirstSemNonstem",
             'WTStem' => "Semester/CIT/WT/CreateThirdYearFirstSem",
@@ -132,8 +132,8 @@ class ThirdYearFirstSemController extends Controller
             'ATNonstem' => NonStemThirdYearFirstSemesterAT::class,
             'METFTStem' => ThirdYearFirstSemesterMETFT::class,
             'METFTNonstem' => NonStemThirdYearFirstSemesterMETFT::class,
-            'HV_RTStem' => ThirdYearFirstSemesterHV_RT::class,
-            'HV_RTNonstem' => NonStemThirdYearFirstSemesterHV_RT::class,
+            'HVRTStem' => ThirdYearFirstSemesterHVRT::class,
+            'HVRTNonstem' => NonStemThirdYearFirstSemesterHVRT::class,
             'PPTStem' => ThirdYearFirstSemesterPPT::class,
             'PPTNonstem' => NonStemThirdYearFirstSemesterPPT::class,
             'WTStem' => ThirdYearFirstSemesterWT::class,

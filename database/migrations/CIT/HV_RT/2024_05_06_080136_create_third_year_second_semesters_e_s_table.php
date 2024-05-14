@@ -10,7 +10,7 @@ return new class extends Migration {
      */
     public function up(): void
     {
-        Schema::create('third_year_second_semesters_hv_rt', function (Blueprint $table) {
+        Schema::create('third_year_second_semesters_HVRT', function (Blueprint $table) {
             $table->id();
             $table->string('course_code');
             $table->string('description');
@@ -26,6 +26,6 @@ return new class extends Migration {
      */
     public function down(): void
     {
-        Schema::dropIfExists('third_year_second_semesters_hv_rt');
+        Schema::dropIfExists('third_year_second_semesters_HVRT');
     }
 };

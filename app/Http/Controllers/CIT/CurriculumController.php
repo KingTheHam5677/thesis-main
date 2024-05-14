@@ -164,22 +164,22 @@ use App\Models\CIT\METFT\NonStemThirdYearFirstSemesterMETFT;
 use App\Models\CIT\METFT\NonStemThirdYearSecondSemesterMETFT;
 use App\Models\CIT\METFT\NonStemFourthYearFirstSemesterMETFT;
 use App\Models\CIT\METFT\NonStemFourthYearSecondSemesterMETFT;
-use App\Models\CIT\HV_RT\FirstYearFirstSemesterHV_RT;
-use App\Models\CIT\HV_RT\FirstYearSecondSemesterHV_RT;
-use App\Models\CIT\HV_RT\SecondYearFirstSemesterHV_RT;
-use App\Models\CIT\HV_RT\SecondYearSecondSemesterHV_RT;
-use App\Models\CIT\HV_RT\ThirdYearFirstSemesterHV_RT;
-use App\Models\CIT\HV_RT\ThirdYearSecondSemesterHV_RT;
-use App\Models\CIT\HV_RT\FourthYearFirstSemesterHV_RT;
-use App\Models\CIT\HV_RT\FourthYearSecondSemesterHV_RT;
-use App\Models\CIT\HV_RT\NonStemFirstYearFirstSemesterHV_RT;
-use App\Models\CIT\HV_RT\NonStemFirstYearSecondSemesterHV_RT;
-use App\Models\CIT\HV_RT\NonStemSecondYearFirstSemesterHV_RT;
-use App\Models\CIT\HV_RT\NonStemSecondYearSecondSemesterHV_RT;
-use App\Models\CIT\HV_RT\NonStemThirdYearFirstSemesterHV_RT;
-use App\Models\CIT\HV_RT\NonStemThirdYearSecondSemesterHV_RT;
-use App\Models\CIT\HV_RT\NonStemFourthYearFirstSemesterHV_RT;
-use App\Models\CIT\HV_RT\NonStemFourthYearSecondSemesterHV_RT;
+use App\Models\CIT\HVRT\FirstYearFirstSemesterHVRT;
+use App\Models\CIT\HVRT\FirstYearSecondSemesterHVRT;
+use App\Models\CIT\HVRT\SecondYearFirstSemesterHVRT;
+use App\Models\CIT\HVRT\SecondYearSecondSemesterHVRT;
+use App\Models\CIT\HVRT\ThirdYearFirstSemesterHVRT;
+use App\Models\CIT\HVRT\ThirdYearSecondSemesterHVRT;
+use App\Models\CIT\HVRT\FourthYearFirstSemesterHVRT;
+use App\Models\CIT\HVRT\FourthYearSecondSemesterHVRT;
+use App\Models\CIT\HVRT\NonStemFirstYearFirstSemesterHVRT;
+use App\Models\CIT\HVRT\NonStemFirstYearSecondSemesterHVRT;
+use App\Models\CIT\HVRT\NonStemSecondYearFirstSemesterHVRT;
+use App\Models\CIT\HVRT\NonStemSecondYearSecondSemesterHVRT;
+use App\Models\CIT\HVRT\NonStemThirdYearFirstSemesterHVRT;
+use App\Models\CIT\HVRT\NonStemThirdYearSecondSemesterHVRT;
+use App\Models\CIT\HVRT\NonStemFourthYearFirstSemesterHVRT;
+use App\Models\CIT\HVRT\NonStemFourthYearSecondSemesterHVRT;
 use App\Models\CIT\PPT\FirstYearFirstSemesterPPT;
 use App\Models\CIT\PPT\FirstYearSecondSemesterPPT;
 use App\Models\CIT\PPT\SecondYearFirstSemesterPPT;
@@ -463,23 +463,23 @@ class CurriculumController extends Controller
         $fourthYearFirstSemNonstemDataMETFT = NonStemFourthYearFirstSemesterMETFT::all();
         $fourthYearSecondSemNonstemDataMETFT = NonStemFourthYearSecondSemesterMETFT::all();
 
-        //HV_RT
-        $firstYearFirstSemDataHV_RT = FirstYearFirstSemesterHV_RT::all();
-        $firstYearSecondSemDataHV_RT = FirstYearSecondSemesterHV_RT::all();
-        $secondYearFirstSemDataHV_RT = SecondYearFirstSemesterHV_RT::all();
-        $secondYearSecondSemDataHV_RT = SecondYearSecondSemesterHV_RT::all();
-        $thirdYearFirstSemDataHV_RT = ThirdYearFirstSemesterHV_RT::all();
-        $thirdYearSecondSemDataHV_RT = ThirdYearSecondSemesterHV_RT::all();
-        $fourthYearFirstSemDataHV_RT = FourthYearFirstSemesterHV_RT::all();
-        $fourthYearSecondSemDataHV_RT = FourthYearSecondSemesterHV_RT::all();
-        $firstYearFirstSemNonstemDataHV_RT = NonStemFirstYearFirstSemesterHV_RT::all();
-        $firstYearSecondSemNonstemDataHV_RT = NonStemFirstYearSecondSemesterHV_RT::all();
-        $secondYearFirstSemNonstemDataHV_RT = NonStemSecondYearFirstSemesterHV_RT::all();
-        $secondYearSecondSemNonstemDataHV_RT = NonStemSecondYearSecondSemesterHV_RT::all();
-        $thirdYearFirstSemNonstemDataHV_RT = NonStemThirdYearFirstSemesterHV_RT::all();
-        $thirdYearSecondSemNonstemDataHV_RT = NonStemThirdYearSecondSemesterHV_RT::all();
-        $fourthYearFirstSemNonstemDataHV_RT = NonStemFourthYearFirstSemesterHV_RT::all();
-        $fourthYearSecondSemNonstemDataHV_RT = NonStemFourthYearSecondSemesterHV_RT::all();
+        //HVRT
+        $firstYearFirstSemDataHVRT = FirstYearFirstSemesterHVRT::all();
+        $firstYearSecondSemDataHVRT = FirstYearSecondSemesterHVRT::all();
+        $secondYearFirstSemDataHVRT = SecondYearFirstSemesterHVRT::all();
+        $secondYearSecondSemDataHVRT = SecondYearSecondSemesterHVRT::all();
+        $thirdYearFirstSemDataHVRT = ThirdYearFirstSemesterHVRT::all();
+        $thirdYearSecondSemDataHVRT = ThirdYearSecondSemesterHVRT::all();
+        $fourthYearFirstSemDataHVRT = FourthYearFirstSemesterHVRT::all();
+        $fourthYearSecondSemDataHVRT = FourthYearSecondSemesterHVRT::all();
+        $firstYearFirstSemNonstemDataHVRT = NonStemFirstYearFirstSemesterHVRT::all();
+        $firstYearSecondSemNonstemDataHVRT = NonStemFirstYearSecondSemesterHVRT::all();
+        $secondYearFirstSemNonstemDataHVRT = NonStemSecondYearFirstSemesterHVRT::all();
+        $secondYearSecondSemNonstemDataHVRT = NonStemSecondYearSecondSemesterHVRT::all();
+        $thirdYearFirstSemNonstemDataHVRT = NonStemThirdYearFirstSemesterHVRT::all();
+        $thirdYearSecondSemNonstemDataHVRT = NonStemThirdYearSecondSemesterHVRT::all();
+        $fourthYearFirstSemNonstemDataHVRT = NonStemFourthYearFirstSemesterHVRT::all();
+        $fourthYearSecondSemNonstemDataHVRT = NonStemFourthYearSecondSemesterHVRT::all();
 
         //PPT
         $firstYearFirstSemDataPPT = FirstYearFirstSemesterPPT::all();
@@ -776,23 +776,23 @@ class CurriculumController extends Controller
               'fourthyearfirstsemnonstemMETFT' => $fourthYearFirstSemNonstemDataMETFT,
               'fourthyearsecondsemnonstemMETFT' => $fourthYearSecondSemNonstemDataMETFT,
 
-              //HV_RT
-            'firstyearfirstsemHV_RT' => $firstYearFirstSemDataHV_RT,
-            'firstyearsecondsemHV_RT' => $firstYearSecondSemDataHV_RT,
-            'secondyearfirstsemHV_RT' => $secondYearFirstSemDataHV_RT,
-            'secondyearsecondsemHV_RT' => $secondYearSecondSemDataHV_RT,
-            'thirdyearfirstsemHV_RT' => $thirdYearFirstSemDataHV_RT,
-            'thirdyearsecondsemHV_RT' => $thirdYearSecondSemDataHV_RT,
-            'fourthyearfirstsemHV_RT' => $fourthYearFirstSemDataHV_RT,
-            'fourthyearsecondsemHV_RT' => $fourthYearSecondSemDataHV_RT,
-            'firstyearfirstsemnonstemHV_RT' => $firstYearFirstSemNonstemDataHV_RT,
-            'firstyearsecondsemnonstemHV_RT' => $firstYearSecondSemNonstemDataHV_RT,
-            'secondyearfirstsemnonstemHV_RT' => $secondYearFirstSemNonstemDataHV_RT,
-            'secondyearsecondsemnonstemHV_RT' => $secondYearSecondSemNonstemDataHV_RT,
-            'thirdyearfirstsemnonstemHV_RT' => $thirdYearFirstSemNonstemDataHV_RT,
-            'thirdyearsecondsemnonstemHV_RT' => $thirdYearSecondSemNonstemDataHV_RT,
-            'fourthyearfirstsemnonstemHV_RT' => $fourthYearFirstSemNonstemDataHV_RT,
-            'fourthyearsecondsemnonstemHV_RT' => $fourthYearSecondSemNonstemDataHV_RT,
+              //HVRT
+            'firstyearfirstsemHVRT' => $firstYearFirstSemDataHVRT,
+            'firstyearsecondsemHVRT' => $firstYearSecondSemDataHVRT,
+            'secondyearfirstsemHVRT' => $secondYearFirstSemDataHVRT,
+            'secondyearsecondsemHVRT' => $secondYearSecondSemDataHVRT,
+            'thirdyearfirstsemHVRT' => $thirdYearFirstSemDataHVRT,
+            'thirdyearsecondsemHVRT' => $thirdYearSecondSemDataHVRT,
+            'fourthyearfirstsemHVRT' => $fourthYearFirstSemDataHVRT,
+            'fourthyearsecondsemHVRT' => $fourthYearSecondSemDataHVRT,
+            'firstyearfirstsemnonstemHVRT' => $firstYearFirstSemNonstemDataHVRT,
+            'firstyearsecondsemnonstemHVRT' => $firstYearSecondSemNonstemDataHVRT,
+            'secondyearfirstsemnonstemHVRT' => $secondYearFirstSemNonstemDataHVRT,
+            'secondyearsecondsemnonstemHVRT' => $secondYearSecondSemNonstemDataHVRT,
+            'thirdyearfirstsemnonstemHVRT' => $thirdYearFirstSemNonstemDataHVRT,
+            'thirdyearsecondsemnonstemHVRT' => $thirdYearSecondSemNonstemDataHVRT,
+            'fourthyearfirstsemnonstemHVRT' => $fourthYearFirstSemNonstemDataHVRT,
+            'fourthyearsecondsemnonstemHVRT' => $fourthYearSecondSemNonstemDataHVRT,
 
 
             //PPT
