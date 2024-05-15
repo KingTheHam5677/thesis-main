@@ -10,7 +10,7 @@ return new class extends Migration {
      */
     public function up(): void
     {
-        Schema::create('non_stem_third_year_first_semesters', function (Blueprint $table) {
+        Schema::create('non_stem_fourth_year_first_semesters_f_t', function (Blueprint $table) {
             $table->id();
             $table->string('course_code');
             $table->string('description');
@@ -26,6 +26,6 @@ return new class extends Migration {
      */
     public function down(): void
     {
-        Schema::dropIfExists('non_stem_third_year_first_semesters');
+        Schema::dropIfExists('non_stem_fourth_year_first_semesters_f_t');
     }
 };
