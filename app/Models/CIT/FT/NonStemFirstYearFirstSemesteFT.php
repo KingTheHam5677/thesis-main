@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Models\COS\CS;
+namespace App\Models\CIT\FT;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class FirstYearSecondSemester extends Model
+class NonStemFirstYearFirstSemesterFT extends Model
 {
     use HasFactory;
 

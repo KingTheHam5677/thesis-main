@@ -5,9 +5,10 @@ namespace App\Models\CIT\FT;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class SecondYearFirstSemester extends Model
+class FourthYearFirstSemesterFT extends Model
 {
     use HasFactory;
+
 
     protected $fillable = [
         'course_code',

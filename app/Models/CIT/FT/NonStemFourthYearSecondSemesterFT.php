@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Models\COS\CS;
+namespace App\Models\CIT\FT;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class NonStemThirdYearSecondSemester extends Model
+class NonStemFourthYearSecondSemesterFT extends Model
 {
     use HasFactory;
     protected $fillable = [
